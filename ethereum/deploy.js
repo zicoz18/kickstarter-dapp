@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  'upper guard chest dinner vast plastic income punch scare fashion winter know',
-  'https://ropsten.infura.io/v3/363dbb447422405e87df62375cd60be7'
+  process.env.MNOMEMIC_PHRASE,
+  process.env.INFURA_LINK
 );
 const web3 = new Web3(provider);
 
