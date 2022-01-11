@@ -1,6 +1,6 @@
 # kickstarter-dapp
 
-## This is an kickstarter tweak with blockchain development. 
+## This is a kickstarter tweak with blockchain development. 
 
 ### Frontend is written in React, Next.js
 
